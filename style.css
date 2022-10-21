@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(255, 192, 203);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    #top {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 2%;
+        margin-top: 2%;
+        text-align: center;
+    }
+    #bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-style: italic;
+        margin: 15px;
+    }
+
+    #shoppingcart {
+        width: 15%;
+        height: auto;
+    }
+  }
+
+#top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2%;
+    margin-top: 2%;
+}
+
+#shoppingcart {
+    width: 7%;
+    height: auto;
+}
+
+h1 {
+    font-size: 65px;
+    text-decoration: underline rgb(12, 140, 233);
+    font-style: italic;
+    margin: 5px;
+}
+
+button {
+    padding: 10px;
+    border: 1.5px solid black;
+    background-color: rgb(231, 84, 128);
+    margin: 0px;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    flex-grow: 1;
+}
+
+button:hover {
+    background-color: rgb(184, 64, 100);
+}
+
+#nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+    margin: 15px;
+}
+
+.media-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+    font-style: italic;
+}
+
+#middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cookie-pic {
+    border: 14.5px solid rgb(231, 84, 128);
+    width: 70%;
+}
+
+#middle p {
+    font-size: larger;
+    width: 90%;
+    font-weight: bold;
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+    margin: 15px;
+}
+
+#email {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 35%;
+}
+
+#email-div {
+    padding: 6px;
+    width: 100%;
+    background-color: rgb(231, 84, 128);
+    text-align: center;
+    color: white;
+    margin: 2%;
+}
+
+#socials {
+    text-align: right;
+}
